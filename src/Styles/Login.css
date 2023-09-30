@@ -1,0 +1,58 @@
+#login{
+    background-color:#99ffde;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.wrapper{
+    background-color: violet;
+    width: 400px;
+    height: 25rem;
+    border-radius: 20px;
+}
+
+.login-btn{
+    background-color: blue;
+    width: 50%;
+    margin-top: 20px;
+    height: 2rem;
+    margin-left: 25%;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    transition: all o.5s ease-in-out;
+}
+
+.login-btn:focus{
+    transform: scale(1.25);
+}
+
+.wrapper .forget p a{
+    margin-top: 25px;
+    color: black;
+}
+
+.signup-para{
+    margin-top: 25px;
+}
+
+.signup-para a{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+

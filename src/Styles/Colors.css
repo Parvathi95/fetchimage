@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    background-color: darkgray;
+    border-radius: 20px;
+    padding: 10px 15px;
+     margin-top: 20px;
+   }
+
+   .card{
+    margin-top: 15px;
+    position: absolute;
+   }
+
+   .title{
+    text-align: center;
+    padding: 5px;
+   }
+

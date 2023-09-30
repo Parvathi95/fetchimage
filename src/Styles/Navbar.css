@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cambo&family=Cormorant:ital,wght@1,300;1,400;1,500;1,600&family=Crete+Round:ital@1&family=Dancing+Script:wght@600&family=Domine:wght@600&family=Libre+Baskerville:wght@700&family=Literata:opsz@7..72&family=Mulish:ital,wght@1,300&family=Open+Sans&family=Outfit:wght@300&family=PT+Serif&family=Playfair+Display:wght@500&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,400;8..144,500&family=Volkhov:ital,wght@1,700&family=Vollkorn:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cambo&family=Cormorant:ital,wght@1,300;1,400;1,500;1,600&family=Crete+Round:ital@1&family=Dancing+Script:wght@600&family=Domine:wght@600&family=Libre+Baskerville:wght@700&family=Literata:opsz@7..72&family=Mulish:ital,wght@1,300&family=Open+Sans&family=Outfit:wght@300&family=PT+Serif&family=Playfair+Display:wght@500&family=Poppins:wght@300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,400;8..144,500&family=Volkhov:ital,wght@1,700&family=Vollkorn:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#800080;
+    width: 100%;
+    height: 75px;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    color: white;
+    font-size: 2rem;
+    font-family:'Literata', serif;
+    font-weight: bolder;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.home,.colors,.signup,.login{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-right: 10%;
+    padding: 0 20px;
+}
+
+.mob-menu-icon{
+    display: none;
+}
+
+@media screen and (max-width:780px) {
+    .logo{
+        position: absolute;
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .nav-links-mob{
+        position: absolute;
+        top: 75px;
+        background-color: lightgreen;
+        list-style: none;
+        width: 100%;
+        height: 16rem;
+        display: block;
+    }
+
+    .home,.colors,.signup,.login{
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 1rem;
+        color: black;
+    }
+
+    .mob-menu-icon{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        margin-right: 20px;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-size: 1.2rem;
+        width: 2rem;
+        height: 2rem;
+        justify-content: center;
+    }
+
+    
+}
